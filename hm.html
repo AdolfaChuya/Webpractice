@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Тег FORM</title>
+ </head>
+ <body>
+    <table>
+        <caption>Список студентов</caption>
+          <tr>
+            <th>№ п/п</th>
+            <th>Имя</th>
+            <th>Оценки</th>
+            <th>Вуз</th>
+            <th>Рост.см</th>
+            <th>Вес.кг</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Шаимов Диас</td><td>10/10</td><td>AITU</td><td>192</td><td>70</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Азамат Курмангалиев</td><td>2/10</td><td>AITU</td><td>169</td><td>63</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align:right">Кол. Студентов:</td><td>2</td>
+          </tr>
+    </table>
+
+    <a href ="https://calorizator.ru/sites/default/files/imagecache/product_512/product/cucumber-1.jpg">
+        <img src="https://montessoriself.ru/wp-content/uploads/2014/09/kartochka-yabloko-1.jpg" alt="Огурец" width="450" height="450">
+    </a>
+
+    <form action="handler.php">
+        <p><b>Где вы учитесь?</b></p>
+        <p>
+            <input type="radio" name="answer" value="a1">AITU<br>
+            <input type="radio" name="answer" value="a2">МУИТ<br>
+            <input type="radio" name="answer" value="a2">Другой вуз<br>
+            <input type="radio" name="answer" value="a3">Не студент<br>
+        </p>
+        <p><input type="submit"></p>
+    </form>
+
+</body>
+</html>
